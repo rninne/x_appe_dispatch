@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "dropdown_1",
+  "elementLabel" : "Dropdown 1",
+  "propertyValues" : {
+    "variant" : {
+      "type" : "JSON_LITERAL",
+      "value" : "secondary"
+    },
+    "select" : {
+      "type" : "JSON_LITERAL",
+      "value" : "single"
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "search" : {
+      "type" : "JSON_LITERAL",
+      "value" : "none"
+    },
+    "placeholder" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "Dropdown",
+        "comment" : ""
+      }
+    },
+    "hideLabel" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "icon" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "bare" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "showPadding" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideCaret" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "disabled" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "showPresencePattern" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "items" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "get_table_filters", "output", "filters" ]
+      }
+    },
+    "opened" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "panelFitProps" : {
+      "type" : "JSON_LITERAL",
+      "value" : { }
+    },
+    "selectedItems" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "get_table_filters", "output", "selectedFilter" ]
+      }
+    },
+    "configAria" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "tooltipContent" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "22c67d9a1e515fef66442e1469bed3a2",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "b005806d1be89150c67f1f49274bcb73",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "get_table_filters",
+  "elementLabel" : "Get Table Filters",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "incident"
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"dropdown_1","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Home</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "Dropdown",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 04:37:44</sys_created_on>
+        <sys_id>c3d4cc2d1be89150c67f1f49274bcb5c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Dispatch" source="x_appe_dispatch">cfc3cce91be89150c67f1f49274bcbca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dispatch">cfc3cce91be89150c67f1f49274bcbca</sys_scope>
+        <sys_update_name>sys_ux_macroponent_c3d4cc2d1be89150c67f1f49274bcb5c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-07 04:44:42</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>
